@@ -52,3 +52,7 @@ fi
 
 echo "🎉 Setup Complete! (Branch: main)"
 echo "🚀 Run 'python run.py' to start."
+
+# 스크립트 자체를 제거
+rm -- "$0"
+echo "🗑️ setup.sh removed."
